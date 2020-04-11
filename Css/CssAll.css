@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic; 
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+  
+}
+
+.topnav a {
+  font-family: Helictiva;
+  font-size: 28px;
+  float: right;
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 32px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: whitesmoke;
+  color: dimgray;
+}
+
+.logo img{
+	float: left;
+	width: 400px;
+	height:auto;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 70px;
+}
+
+.Gallery{
+	margin: 10px 50px;
+}
+
+.Gallery img{
+	transition: 1s;
+	padding:15px;
+	width: 200px;
+	height: 150px;
+}
+
+.Gallery img:Hover{
+	filter: grayscale(100%);
+	transform: scale(1.5,1.5);
+}
+
+body{
+	background-color: black;
+}
+
+.Profiles{
+	width: 60%;
+	height: 100%;
+}
+
+h2{
+    text-align: center;
+    color: whitesmoke;
+    font-family: Circular;
+    font-size: 30px;
+}
+
+h5{
+    text-align: center; 
+    color: whitesmoke;
+    font-size: 20px;
+
+}
+
+h6{
+    text-align: right; 
+    color: whitesmoke;
+    font-size: 30px;
+
+}
+h4{
+    color: transparent;
+    font-size: 1px;
+    
+}
+
+th{
+        color: whitesmoke;
+        font-size: 35px;
+
+
+}
+
+td{
+        color: whitesmoke;
+        text-align: center;
+        font-size: 25px;
+
+}
